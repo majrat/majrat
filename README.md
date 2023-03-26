@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Mohammed Jauharali</h1>
 <h3 align="center">A passionate Javascript developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mjjauhar&label=Profile%20views&color=0e75b6&style=flat" alt="mjjauhar" /> </p>
+[![](https://visitcount.itsvg.in/api?id=mjjauhar&icon=0&color=0)](https://visitcount.itsvg.in)
 
 - 🔭 I’m currently working on this [unRavel - travel companion](un-ravel.netlify.app/)
 
@@ -23,11 +23,7 @@
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 😂 Random Dev Meme
-<img src="https://random-memer.herokuapp.com/" width="512px"/>
-
 ---
-[![](https://visitcount.itsvg.in/api?id=mjjauhar&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
