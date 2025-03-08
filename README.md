@@ -4,11 +4,7 @@
 
 [![](https://visitcount.itsvg.in/api?id=mjjauhar&icon=0&color=0)](https://visitcount.itsvg.in)
 
-- 🔭 I’m currently working on this [unRavel - travel companion](un-ravel.netlify.app/)
-
-- 👯 And this [tRavel - travel e-commerce](travel.cyclic.app/)
-
-- ⚡ **Code - Art - Game**
+- ⚡ **Code - Art**
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammed-jauharali-942a1820b) 
