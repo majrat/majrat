@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="50%" stop-color="#0c0e17" />
+      <stop offset="100%" stop-color="#07080c" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="glow-gold" cx="85%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#c5a059" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#c5a059" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-violet" cx="15%" cy="85%" r="60%">
+      <stop offset="0%" stop-color="#7b2cbf" stop-opacity="0.28" />
+      <stop offset="65%" stop-color="#7b2cbf" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-emerald" cx="50%" cy="0%" r="45%">
+      <stop offset="0%" stop-color="#20c997" stop-opacity="0.18" />
+      <stop offset="70%" stop-color="#20c997" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card / Border Gradients -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#20c997" stop-opacity="0.5" />
+      <stop offset="35%" stop-color="#c5a059" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#7b2cbf" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#20c997" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Text Shimmer Gradient -->
+    <linearGradient id="text-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f0f3f6" />
+      <stop offset="100%" stop-color="#c8d6e5" />
+    </linearGradient>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="dot-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06" />
+    </pattern>
+  </defs>
+
+  <style>
+    .studio-badge {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      fill: #20c997;
+    }
+    .main-name {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 38px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      fill: url(#text-shimmer);
+    }
+    .brand-mark {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 26px;
+      font-weight: 300;
+      letter-spacing: 3px;
+      fill: #c5a059;
+    }
+    .subline {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 13.5px;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #cbd5e1;
+    }
+    .accent-dim {
+      fill: #64748b;
+    }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="840" height="260" rx="14" fill="url(#bg-grad)" />
+
+  <!-- Grid Texture -->
+  <rect width="840" height="260" rx="14" fill="url(#dot-grid)" />
+
+  <!-- Ambient Light Fields -->
+  <rect width="840" height="260" rx="14" fill="url(#glow-emerald)" />
+  <rect width="840" height="260" rx="14" fill="url(#glow-gold)" />
+  <rect width="840" height="260" rx="14" fill="url(#glow-violet)" />
+
+  <!-- Outer Structural Border -->
+  <rect x="1" y="1" width="838" height="258" rx="13" fill="none" stroke="url(#border-grad)" stroke-width="1.2" />
+
+  <!-- Geometric Corner Accents -->
+  <path d="M 14 36 L 14 14 L 36 14" fill="none" stroke="#20c997" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <path d="M 826 36 L 826 14 L 804 14" fill="none" stroke="#c5a059" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <path d="M 14 224 L 14 246 L 36 246" fill="none" stroke="#7b2cbf" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <path d="M 826 224 L 826 246 L 804 246" fill="none" stroke="#20c997" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Architectural Studio Tagline Pill -->
+  <g transform="translate(48, 38)">
+    <rect width="268" height="24" rx="12" fill="#131b26" stroke="#20c997" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#20c997" />
+    <text x="26" y="16" class="studio-badge">SPATIAL STUDIO &amp; LABS</text>
+  </g>
+
+  <!-- Right Logo / Domain Identity -->
+  <g transform="translate(682, 38)">
+    <text x="0" y="18" class="brand-mark">majR<tspan fill="#20c997">.</tspan><tspan fill="#f8fafc">at</tspan></text>
+  </g>
+
+  <!-- Main Name Title -->
+  <g transform="translate(48, 106)">
+    <text x="0" y="0" class="main-name">MOHAMMED JAUHAR ALI</text>
+  </g>
+
+  <!-- Subtitle / Dual Discipline -->
+  <g transform="translate(48, 138)">
+    <text x="0" y="0" class="subline">
+      <tspan font-weight="600" fill="#f1f5f9">Artist | Developer</tspan>
+      <tspan class="accent-dim"> — </tspan>
+      Bridging Concept Art, 3D Spatial Interfaces, and Robust Systems Architecture
+    </text>
+  </g>
+
+  <!-- Studio Coordinate Philosophy / Tags -->
+  <g transform="translate(48, 164)">
+    <text x="0" y="0" class="subline" fill="#64748b" font-size="12px">
+      Minimalist Aesthetics <tspan fill="#c5a059">·</tspan> Clean Logic <tspan fill="#7b2cbf">·</tspan> Creative Computing <tspan fill="#20c997">·</tspan> Open-Source Craft
+    </text>
+  </g>
+
+  <!-- Lower Tech & Hub Badges Strip -->
+  <g transform="translate(48, 202)">
+    <!-- Pill 1: majr.at -->
+    <g transform="translate(0, 0)">
+      <rect width="132" height="26" rx="6" fill="#111420" stroke="#c5a059" stroke-opacity="0.35" stroke-width="1" />
+      <text x="12" y="17" class="pill-text"><tspan fill="#c5a059">✦</tspan> majr.at Studio</text>
+    </g>
+
+    <!-- Pill 2: majRhythm -->
+    <g transform="translate(142, 0)">
+      <rect width="148" height="26" rx="6" fill="#111420" stroke="#20c997" stroke-opacity="0.35" stroke-width="1" />
+      <text x="12" y="17" class="pill-text"><tspan fill="#20c997">◈</tspan> majRhythm CLI</text>
+    </g>
+
+    <!-- Pill 3: ArtStation -->
+    <g transform="translate(300, 0)">
+      <rect width="144" height="26" rx="6" fill="#111420" stroke="#7b2cbf" stroke-opacity="0.35" stroke-width="1" />
+      <text x="12" y="17" class="pill-text"><tspan fill="#a855f7">❖</tspan> Concept Art / 3D</text>
+    </g>
+
+    <!-- Pill 4: Full Stack & Cloud -->
+    <g transform="translate(454, 0)">
+      <rect width="148" height="26" rx="6" fill="#111420" stroke="#3b82f6" stroke-opacity="0.35" stroke-width="1" />
+      <text x="12" y="17" class="pill-text"><tspan fill="#60a5fa">⚙</tspan> Full-Stack Web</text>
+    </g>
+  </g>
+
+  <!-- Coordinate Accent Element in Bottom Right -->
+  <g transform="translate(738, 218)">
+    <text x="0" y="0" class="pill-text" fill="#475569" font-size="10px">DXB // 25.2° N</text>
+  </g>
+</svg>
